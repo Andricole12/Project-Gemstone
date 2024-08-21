@@ -1,0 +1,14 @@
+C:\Users\dylan\OneDrive\Desktop\Project Gemstone\obj\Debug\net8.0\Project Gemstone.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dylan\OneDrive\Desktop\Project Gemstone\obj\Debug\net8.0\Project Gemstone.AssemblyInfoInputs.cache
+C:\Users\dylan\OneDrive\Desktop\Project Gemstone\obj\Debug\net8.0\Project Gemstone.AssemblyInfo.cs
+C:\Users\dylan\OneDrive\Desktop\Project Gemstone\obj\Debug\net8.0\Project Gemstone.csproj.CoreCompileInputs.cache
+C:\Users\dylan\OneDrive\Desktop\Project Gemstone\bin\Debug\net8.0\Project Gemstone.exe
+C:\Users\dylan\OneDrive\Desktop\Project Gemstone\bin\Debug\net8.0\Project Gemstone.deps.json
+C:\Users\dylan\OneDrive\Desktop\Project Gemstone\bin\Debug\net8.0\Project Gemstone.runtimeconfig.json
+C:\Users\dylan\OneDrive\Desktop\Project Gemstone\bin\Debug\net8.0\Project Gemstone.dll
+C:\Users\dylan\OneDrive\Desktop\Project Gemstone\bin\Debug\net8.0\Project Gemstone.pdb
+C:\Users\dylan\OneDrive\Desktop\Project Gemstone\obj\Debug\net8.0\Project Gemstone.dll
+C:\Users\dylan\OneDrive\Desktop\Project Gemstone\obj\Debug\net8.0\refint\Project Gemstone.dll
+C:\Users\dylan\OneDrive\Desktop\Project Gemstone\obj\Debug\net8.0\Project Gemstone.pdb
+C:\Users\dylan\OneDrive\Desktop\Project Gemstone\obj\Debug\net8.0\Project Gemstone.genruntimeconfig.cache
+C:\Users\dylan\OneDrive\Desktop\Project Gemstone\obj\Debug\net8.0\ref\Project Gemstone.dll
