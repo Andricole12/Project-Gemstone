@@ -1,8 +1,9 @@
 ﻿using System;
 
+namespace program {
 
-public static class console_1
-{
+    public static class user
+    {
 
         public static Random rnd = new Random();
         public static int goldcount = 0;
@@ -12,46 +13,51 @@ public static class console_1
         public static int saltcount = 0;
         public static int stonecount = 0;
         public static int allcount = 0;
-    public static void Main(){
+        public static void Main()
+        {
+            Console.WriteLine("==============================");
+            Console.WriteLine("What would you like to do?");
+            Console.WriteLine("a. Mine ores");
+            Console.WriteLine("b. Check Inventory");
+            Console.WriteLine("or (exit)");
+            Console.WriteLine("==============================");
 
-        
-
-        Console.WriteLine("==============================");
-        Console.WriteLine("What would you like to do?");
-        Console.WriteLine("a. Mine ores");
-        Console.WriteLine("b. Check Inventory");
-        Console.WriteLine("or (exit)");
-        Console.WriteLine("==============================");
-        switch(Console.ReadLine())
+            switch (Console.ReadLine())
             {
                 case "a":
                     Console.WriteLine("You continue mining for ores");
-                    int orerng = console_1.rnd.Next(1, 100);
-                    if (orerng <= 5){
+                    int orerng = user.rnd.Next(1, 100);
+                    if (orerng <= 5)
+                    {
                         Console.WriteLine("You found gold");
                         goldcount++;
                         Main();
-                    } else if (orerng <= 13)
+                    }
+                    else if (orerng <= 13)
                     {
                         Console.WriteLine("You found Silver");
                         silvercount++;
                         Main();
-                    }else if (orerng <= 25)
+                    }
+                    else if (orerng <= 25)
                     {
                         Console.WriteLine("You found iron");
                         ironcount++;
                         Main();
-                    }else if (orerng <= 45)
+                    }
+                    else if (orerng <= 45)
                     {
                         Console.WriteLine("You found copper");
                         coppercount++;
                         Main();
-                    }else if (orerng <= 65)
+                    }
+                    else if (orerng <= 65)
                     {
                         Console.WriteLine("You found salt");
                         saltcount++;
                         Main();
-                    }else 
+                    }
+                    else
                     {
                         Console.WriteLine("You did not find any ores");
                         Console.WriteLine("But you atleast have stones");
@@ -64,53 +70,61 @@ public static class console_1
                     break;
                 case "exit":
                     break;
-                
-            }
-    }
-    public static void inventory()
-    {
-        allcount = goldcount + ironcount + coppercount + saltcount + stonecount;
-        Console.WriteLine("==============================");
-        Console.WriteLine("Ores:");
-        if (allcount == 0) 
-        {
-            Console.WriteLine("You don't have any ores womp womp");
-        }else{};
-        if (goldcount > 0) 
-        {
-            Console.WriteLine("Gold:" + goldcount);
-        }else{};
-        if (silvercount > 0) 
-        {
-            Console.WriteLine("Silver:" + silvercount);
-        }else{};
-        if (ironcount > 0) 
-        {
-            Console.WriteLine("Iron:" + ironcount);
-        }else{};
-        if (coppercount > 0) 
-        {
-            Console.WriteLine("Copper:" + coppercount);
-        }else{};
-        if (saltcount > 0) 
-        {
-            Console.WriteLine("Salt:" + saltcount);
-        }else{};
-        if (stonecount > 0) 
-        {
-            Console.WriteLine("Stone:" + stonecount);
-        }else{};
-        Console.WriteLine("==============================");
-        Console.WriteLine("What would you like to do?");
-        Console.WriteLine("a. go back");
-        Console.WriteLine("==============================");
 
-        
-        switch(Console.ReadLine())
+            }
+        }
+        public static void inventory()
         {
-            case "a":
-                Main();
-                break;
+            allcount = goldcount + ironcount + coppercount + saltcount + stonecount;
+            Console.WriteLine("==============================");
+            Console.WriteLine("Ores:");
+            if (allcount == 0)
+            {
+                Console.WriteLine("You don't have any ores womp womp");
+            }
+            else { };
+            if (goldcount > 0)
+            {
+                Console.WriteLine("Gold:" + goldcount);
+            }
+            else { };
+            if (silvercount > 0)
+            {
+                Console.WriteLine("Silver:" + silvercount);
+            }
+            else { };
+            if (ironcount > 0)
+            {
+                Console.WriteLine("Iron:" + ironcount);
+            }
+            else { };
+            if (coppercount > 0)
+            {
+                Console.WriteLine("Copper:" + coppercount);
+            }
+            else { };
+            if (saltcount > 0)
+            {
+                Console.WriteLine("Salt:" + saltcount);
+            }
+            else { };
+            if (stonecount > 0)
+            {
+                Console.WriteLine("Stone:" + stonecount);
+            }
+            else { };
+            Console.WriteLine("==============================");
+            Console.WriteLine("What would you like to do?");
+            Console.WriteLine("a. go back");
+            Console.WriteLine("==============================");
+
+
+            switch (Console.ReadLine())
+            {
+                case "a":
+                    Main();
+                    break;
+            }
         }
     }
 }

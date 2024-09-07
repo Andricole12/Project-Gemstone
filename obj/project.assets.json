@@ -8,24 +8,31 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\dylan\\.nuget\\packages\\": {}
+    "C:\\Users\\Florence Asi\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dylan\\OneDrive\\Desktop\\Project Gemstone\\Project Gemstone.csproj",
+      "projectUniqueName": "C:\\Users\\Florence Asi\\Source\\Repos\\Project-Gemstone\\Project Gemstone.csproj",
       "projectName": "Project Gemstone",
-      "projectPath": "C:\\Users\\dylan\\OneDrive\\Desktop\\Project Gemstone\\Project Gemstone.csproj",
-      "packagesPath": "C:\\Users\\dylan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dylan\\OneDrive\\Desktop\\Project Gemstone\\obj\\",
+      "projectPath": "C:\\Users\\Florence Asi\\Source\\Repos\\Project-Gemstone\\Project Gemstone.csproj",
+      "packagesPath": "C:\\Users\\Florence Asi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Florence Asi\\Source\\Repos\\Project-Gemstone\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\dylan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Florence Asi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
